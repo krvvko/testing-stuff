@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+body {
+    margin: 0;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Rubik', sans-serif;
+    gap: 20px;
+}
+
+.zxc {
+    height: 300px;
+}
+
+.ip, .tvoi-ip {
+    font-weight: 600;
+    font-size: 50px;
+}
+#ip, #city, #country, #zip {
+    font-weight: 600;
+    color: #b90808;
+}
